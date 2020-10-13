@@ -17,7 +17,7 @@ class TopStories extends Component {
   render() {
     return (
       <div className="topstories">
-      {this.state.items.map((item, index) => <p key={index}><a href={item["title"]}>{item["title"]}</a></p>)}
+      {this.state.items.map((item, index) => <p key={index}><a href={item["url"]}>{item["title"]}</a></p>)}
       </div>
     )
   }
